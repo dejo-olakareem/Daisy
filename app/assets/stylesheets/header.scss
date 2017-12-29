@@ -1,11 +1,5 @@
-@media screen and (max-width: 800px) {
-  body {
-    background-color: red;
-  }
-}
-
 .navbar-brand {
-  padding-right: 75%;
+  padding-right: 35%;
 }
 
 .navbar-brand img {
@@ -13,6 +7,24 @@
   height:50px;
 }
 
-.navbar-nav .nav-item{
-  padding: 10px;
+// Make Nav transparent
+
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar ul li a:hover {
+  background-color: lightgrey !important;
+  border-radius: 50px;
+}
+
+.navbar ul li a {
+  padding: 0 3.0em !important;
+}
+
+@media screen and (max-width: 800px) {
+ .navbar ul li a {
+      padding: 0em !important;
+    }
 }
