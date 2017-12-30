@@ -33,14 +33,18 @@
   }
 
   .row {
-    height: 900px;
+    height: 500px;
+  }
+
+  .multiple {
+    margin: 0px;
   }
 }
 
 
 .row {
   height: 700px;
-  padding-top: 30px;
+  padding: 5px;
 }
 
 #nutCol h1 {
@@ -49,5 +53,18 @@
 
 .multiple {
   border-style: outset;
-  margin-right: 20px;
+}
+
+.multiple .col-lg-4{
+  padding-bottom: 5px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.multiple .col-lg-4 .col-lg-12 {
+  height: 100%;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
