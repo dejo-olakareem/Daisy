@@ -32,19 +32,22 @@
     padding-left: 20px;
   }
 
-  .container .row {
-    height: 550px;
+  .row {
+    height: 900px;
   }
 }
 
-.container {
-  padding-top: 30px;
-}
 
-.container .row {
-  height: 350px;
+.row {
+  height: 700px;
+  padding-top: 30px;
 }
 
 #nutCol h1 {
   font-weight: 900;
+}
+
+.multiple {
+  border-style: outset;
+  margin-right: 20px;
 }
