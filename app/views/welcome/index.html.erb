@@ -1,9 +1,29 @@
+<style>
+ #map {
+  height: 400px;
+  width: 50%;
+}
+</style>
+<script>
+  function initMap() {
+    var uluru = {lat: 44.729399, lng: -93.208313};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNq6LgOyWnqxWFmtgmex1UPJKOFFznwX4&callback=initMap" async defer></script>
 <div class="welcomeImage text-center">
 </div>
 
 <div class="row">
   <div class="col-lg-6 col-xs-12 text-center" id="nutCol">
-    <h1> Nutition meets Fitness</h1>
+    <h1> Nutrition meets Fitness</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -39,5 +59,9 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container" style="padding-top: 30px;">
+  <h5>Contact Us</h5>
+  <div id="map"></div>
 </div>
 

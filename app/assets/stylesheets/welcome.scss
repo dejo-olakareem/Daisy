@@ -43,16 +43,25 @@
 
 
 .row {
-  height: 700px;
+  height: 500px;
   padding: 5px;
+  background-color: #323232;
 }
 
 #nutCol h1 {
   font-weight: 900;
+  color: white;
+  padding-top:90px;
 }
 
+#nutCol p {
+  font-weight: 900;
+  color: white;
+}
+
+
 .multiple {
-  border-style: outset;
+  // border-style: outset;
 }
 
 .multiple .col-lg-4{
