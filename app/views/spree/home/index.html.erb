@@ -5,7 +5,7 @@
   </div>
 <% end %>
 
-<div data-hook="homepage_products">
+<div data-hook="homepage_products" style="background-color: black;">
   <% cache(cache_key_for_products) do %>
     <%= render partial: 'spree/shared/products', locals: { products: @products } %>
   <% end %>
