@@ -1,7 +1,7 @@
 <style>
  #map {
   height: 400px;
-  width: 50%;
+  width: 100%;
 }
 </style>
 <script>
@@ -18,12 +18,11 @@
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNq6LgOyWnqxWFmtgmex1UPJKOFFznwX4&callback=initMap" async defer></script>
-<div class="welcomeImage text-center">
-</div>
+<div class="welcomeImage"></div>
 
-<div class="row">
-  <div class="col-lg-6 col-xs-12 text-center" id="nutCol">
-    <h1> Nutrition meets Fitness</h1>
+<div class="row imageRow">
+  <div class="col-lg-6 col-xs-12" id="nutCol">
+    <h1 class="text-center"> Nutrition meets Fitness</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -34,34 +33,98 @@
   <div class="col-lg-6 col-xs-12">
     <div class="row multiple">
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(https://www.rd.com/wp-content/uploads/2015/11/01-fruit-smoothies-strawberry.jpg);">
-        </div>
+        <a href="" class="disabled">
+            <div class="col-lg-12" style="background-image: url(https://www.rd.com/wp-content/uploads/2015/11/01-fruit-smoothies-strawberry.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg">
+            </div>
+        </a>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(http://www.baked-in.com/wp-content/uploads/2013/03/DSC_0501_edited-2-1024x951.jpg);">
-        </div>
+        <a href="" class="disabled">
+          <div class="col-lg-12" style="background-image: url(http://www.baked-in.com/wp-content/uploads/2013/03/DSC_0501_edited-2-1024x951.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg1">
+          </div>
+        </a>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(https://homemaderecipes.com/wp-content/uploads/2015/11/Chocolate-Peanut-Butter-Banana-Breakfast-Shake-healthy-shakes.jpg);">
-        </div>
+        <a href="" class="disabled">
+          <div class="col-lg-12" style="background-image: url(https://homemaderecipes.com/wp-content/uploads/2015/11/Chocolate-Peanut-Butter-Banana-Breakfast-Shake-healthy-shakes.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg2">
+          </div>
+        </a>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(https://blog.viviscal.com/wp-content/uploads/2015/06/Pretty-Potion-Berry-Smoothie.jpg);">
-        </div>
+        <a href="" class="disabled">
+          <div class="col-lg-12" style="background-image: url(https://blog.viviscal.com/wp-content/uploads/2015/06/Pretty-Potion-Berry-Smoothie.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg3">
+          </div>
+        </a>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(https://www.wellplated.com/wp-content/uploads/2016/01/Power-smoothie-with-pomegranate-and-cranberries.jpg);">
-        </div>
+        <a href="" class="disabled">
+          <div class="col-lg-12" style="background-image: url(https://www.wellplated.com/wp-content/uploads/2016/01/Power-smoothie-with-pomegranate-and-cranberries.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg4">
+          </div>
+        </a>
       </div>
       <div class="col-lg-4 col-xs-12">
-        <div class="col-lg-12" style="background-image: url(https://thefoodcharlatan.com/wp-content/uploads/2014/05/IMG_9776.jpg);">
-        </div>
+        <a href="" class="disabled">
+          <div class="col-lg-12" style="background-image: url(https://thefoodcharlatan.com/wp-content/uploads/2014/05/IMG_9776.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg5">
+          </div>
+        </a>
       </div>
     </div>
   </div>
 </div>
-<div class="container" style="padding-top: 30px;">
-  <h5>Contact Us</h5>
-  <div id="map"></div>
+<div class="container text-center" style="padding-top: 30px;">
+  <div class="row">
+    <div class="col-lg-6 col-xs-12">
+      <div id="map"></div>
+    </div>
+    <div class="col-lg-6 col-xs-12">
+      <h5>Contact Us</h5>
+      <p>Address: 15135 Galaxie Ave, Apple Valley, MN 55124</p>
+      <p>Phone: (952) 432-6085</p>
+      <p>Monday - Friday : 8:00am - 8:00pm</p>
+      <p>Saturday - Sundayday : 10:00am - 5:00pm</p>
+    </div>
+  </div>
 </div>
 
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="https://www.rd.com/wp-content/uploads/2015/11/01-fruit-smoothies-strawberry.jpg">
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="http://www.baked-in.com/wp-content/uploads/2013/03/DSC_0501_edited-2-1024x951.jpg">
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="https://homemaderecipes.com/wp-content/uploads/2015/11/Chocolate-Peanut-Butter-Banana-Breakfast-Shake-healthy-shakes.jpg">
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="https://blog.viviscal.com/wp-content/uploads/2015/06/Pretty-Potion-Berry-Smoothie.jpg">
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="https://www.wellplated.com/wp-content/uploads/2016/01/Power-smoothie-with-pomegranate-and-cranberries.jpg">
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="https://thefoodcharlatan.com/wp-content/uploads/2014/05/IMG_9776.jpg">
+    </div>
+  </div>
+</div>

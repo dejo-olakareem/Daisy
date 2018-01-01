@@ -1,6 +1,9 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #323232;
+}
 .welcomeImage {
   background-image: url(Landpic.png);
   background-position: center;
@@ -33,7 +36,7 @@
   }
 
   .row {
-    height: 500px;
+    height: 900px;
   }
 
   .multiple {
@@ -49,16 +52,27 @@
 }
 
 #nutCol h1 {
-  font-weight: 900;
+  font-weight: 500;
   color: white;
-  padding-top:90px;
+  // padding-top:90px;
 }
 
 #nutCol p {
-  font-weight: 900;
   color: white;
 }
 
+.container:after {
+    clear: both;
+}
+
+.container h5 {
+  color: white;
+  font-weight: 500px;
+}
+
+.container p {
+  color: white;
+}
 
 .multiple {
   // border-style: outset;
