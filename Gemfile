@@ -39,8 +39,9 @@ gem 'dotenv'
 gem 'spree', '~> 3.7.0'
 gem 'spree_auth_devise', '~> 3.5'
 gem 'spree_gateway', '~> 3.4'
+gem 'spree_analytics_trackers', '~> 1.0'
 
-gem "bootstrap", ">= 4.3.1"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
