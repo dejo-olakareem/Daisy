@@ -1,0 +1,92 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: white;
+}
+.welcomeImage {
+  background-image: url(candy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-attachment: fixed;
+  height: 900px;
+  width: auto;
+}
+
+.welcomeImage h1 {
+  padding-top:150px;
+  font-weight: 900;
+  color: red;
+   float: right;
+   font-size: 80px;
+   font-family: Gugi, cursive;
+}
+
+@media screen and (max-width: 800px) {
+ .welcomeImage {
+    height: 550px;
+    background-attachment:initial;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+ .welcomeImage h1 {
+      font-weight: 220;
+      padding-top:150px;
+      padding-left:140px;
+      font-size: 40px;
+      // float: left;
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .button_class {
+    padding-top: 40px !important;
+  }
+}
+
+.services_font{
+  color: red;
+}
+
+
+.servises_text_header{
+  color: red;
+  font-size:20px;
+  letter-spacing: 3px;
+  padding-top:80px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid red;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.servises_text_header span {
+    background:#fff;
+    padding:0 10px;
+}
+.servises_text_header_col {
+  background:#F5F5F5 !important;
+}
+
+.what_we_value {
+  text-align: center;
+  padding-top: 80px;
+  color: red;
+  letter-spacing: 3px;
+}
+.what_we_value_head h1{
+  font-family: Gugi, cursive;
+    color: red;
+  letter-spacing: 3px;
+  padding-top:80px;
+  width: 100%;
+  text-align: center;
+}
+
+.what_we_value_img {
+  height:250px;
+}
