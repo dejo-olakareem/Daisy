@@ -1,131 +1,56 @@
-<style>
- #map {
-  height: 400px;
-  width: 100%;
-}
-</style>
-<script>
-  function initMap() {
-    var uluru = {lat: 44.729399, lng: -93.208313};
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 16,
-      center: uluru
-    });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
-  }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNq6LgOyWnqxWFmtgmex1UPJKOFFznwX4&callback=initMap" async defer></script>
-<div class="welcomeImage"></div>
 
-<div class="row parentMultiple">
-  <div class="col-lg-6 col-xs-12" id="nutCol">
-    <h1 class="text-center"> Nutrition meets Fitness</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="col-lg-6 col-xs-12">
-    <div class="row multiple">
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-            <div class="col-lg-12" style="background-image: url(https://www.rd.com/wp-content/uploads/2015/11/01-fruit-smoothies-strawberry.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg">
-            </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-          <div class="col-lg-12" style="background-image: url(http://www.baked-in.com/wp-content/uploads/2013/03/DSC_0501_edited-2-1024x951.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg1">
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-          <div class="col-lg-12" style="background-image: url(https://homemaderecipes.com/wp-content/uploads/2015/11/Chocolate-Peanut-Butter-Banana-Breakfast-Shake-healthy-shakes.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg2">
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-          <div class="col-lg-12" style="background-image: url(https://blog.viviscal.com/wp-content/uploads/2015/06/Pretty-Potion-Berry-Smoothie.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg3">
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-          <div class="col-lg-12" style="background-image: url(https://www.wellplated.com/wp-content/uploads/2016/01/Power-smoothie-with-pomegranate-and-cranberries.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg4">
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <a href="" class="disabled">
-          <div class="col-lg-12" style="background-image: url(https://thefoodcharlatan.com/wp-content/uploads/2014/05/IMG_9776.jpg);" data-toggle="modal" data-target=".bd-example-modal-lg5">
-          </div>
-        </a>
-      </div>
-    </div>
+<div class="welcomeImage">
+  <h1>Buy, <span style="color: white;">save</span> and we <span style="color: white">deliver</span> it to you. <span style="color: white">Everything</span> is a dollar.</h1>
+  <div class="button_class" style="text-align: center; padding-top: 500px;">
+    <a href="/products" class="btn btn-danger btn-lg active" role="button" aria-pressed="true" style="">Shop Now!</a>
   </div>
 </div>
-<div class="container text-center" style="padding-top: 30px;">
+
+
+<div class="container" style="padding-bottom: 60px;">
+  <div itemprop="provider" itemscope itemtype="http://schema.org/Organization" class="col-lg-12 text-center">
+    <h1 class="servises_text_header"><span >HOW IT WORKS</span></h1>
+  </div>
+</div>
+<div class="container">
   <div class="row">
-    <div class="col-lg-6 col-xs-12">
-      <div id="map"></div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col" style="text-align: center">
+        <span style="font-size: 8em; color: red;">
+          <i class="fas fa-shopping-bag"></i>
+        </span>
+      </div>
+      <div class="col" style="text-align: center;font-family: Gugi , cursive">
+        Shop for items. One dollars by per item . $15 minimum
+      </div>
     </div>
-    <div class="col-lg-6 col-xs-12">
-      <h5>Contact Us</h5>
-      <p>Address: 15135 Galaxie Ave, Apple Valley, MN 55124</p>
-      <p>Phone: (952) 432-6085</p>
-      <p>Monday - Friday : 8:00am - 8:00pm</p>
-      <p>Saturday - Sundayday : 10:00am - 5:00pm</p>
+    <div class="col-lg-4 col-md-4 col-sm-12"> <div class="col" style="text-align: center">
+      <span style="font-size: 8em; color: red;">
+        <i class="fas fa-comment-dollar"></i>
+      </span>
+    </div>
+    <div class="col" style="text-align: center;font-family: Gugi , cursive">
+      Save alot of money, Save time. 70% less than all stores.
+    </div></div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><div class="col" style="text-align: center">
+      <span style="font-size: 8em; color: red;">
+        <i class="fas fa-car"></i>
+      </span>
+    </div>
+    <div class="col" style="text-align: center;font-family: Gugi , cursive">
+      We deliver to you within two hours. If we cant you get you delivery for free.
     </div>
   </div>
 </div>
+</div>
+<!-- <div class="what_we_value_head">
+  <h1>What <span style="color: black">we</span> value</h1>
+</div> -->
+<!-- <div class="row">
+  <div class="col-lg-4 col-md-3 col-sm-12">
+    <%#= image_tag("environment.jpg", :alt => "rss feed", class: "what_we_value_img") %>
+  </div>
+  <div class="col-lg-4 col-md-3 col-sm-12"></div>
+  <div class="col-lg-4 col-md-3 col-sm-12"></div>
+</div> -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="https://www.rd.com/wp-content/uploads/2015/11/01-fruit-smoothies-strawberry.jpg" height="500">
-    </div>
-  </div>
-</div>
-<div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="http://www.baked-in.com/wp-content/uploads/2013/03/DSC_0501_edited-2-1024x951.jpg" height="500">
-    </div>
-  </div>
-</div>
-<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="https://homemaderecipes.com/wp-content/uploads/2015/11/Chocolate-Peanut-Butter-Banana-Breakfast-Shake-healthy-shakes.jpg" height="500">
-    </div>
-  </div>
-</div>
-<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="https://blog.viviscal.com/wp-content/uploads/2015/06/Pretty-Potion-Berry-Smoothie.jpg" height="500">
-      <p class="text-center">Juicy bar</p>
-    </div>
-  </div>
-</div>
-<div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="https://www.wellplated.com/wp-content/uploads/2016/01/Power-smoothie-with-pomegranate-and-cranberries.jpg" height="500">
-    </div>
-  </div>
-</div>
-<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <img src="https://thefoodcharlatan.com/wp-content/uploads/2014/05/IMG_9776.jpg" height="500">
-    </div>
-  </div>
-</div>
